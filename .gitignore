@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Weights & Biases local logs
+wandb/
+
+# OS generated files (e.g., if you use a Mac)
+.DS_Store
