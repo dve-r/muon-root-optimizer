@@ -3,6 +3,10 @@
 ## Project Overview
 This repository contains my implementation for an optimization class project: a reproducibility study evaluating the **Muon** and **ROOT** optimizers against an **AdamW** baseline. My specific focus for this project was the Computer Vision domain, evaluating these optimizers on a **ResNet-18** architecture trained from scratch on the **CIFAR-10** dataset.
 
+## Project Report
+For a deep dive into our full methodology, mathematical proofs, and comprehensive results across multiple domains, you can read our complete write-up here:
+**[Report (PDF)](assets/Final_Report.pdf)**
+
 ## Key Findings
 Our experiments demonstrated that orthogonalization provides significant benefits for training convolutional networks:
 * **Early Convergence Acceleration:** Both orthogonalizers provided massive early-stage acceleration. At 10 epochs, AdamW hit only 74.52% validation accuracy, while Muon and ROOT exceeded 82%.
@@ -11,8 +15,8 @@ Our experiments demonstrated that orthogonalization provides significant benefit
 
 ## Visuals
 *(Note: Replace the links below with the actual paths to your saved wandb chart images)*
-![Validation Accuracy](path/to/your/accuracy_chart.png)
-![Validation Loss](path/to/your/loss_chart.png)
+![Validation Accuracy](assets/vall_accuracy.png)
+![Validation Loss](assets/val_loss.png)
 
 ## How to Run
 If you would like to run these experiments locally, first install the required dependencies:
